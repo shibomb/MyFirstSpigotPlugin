@@ -1,0 +1,13 @@
+name: MyFirstSpigotPlugin
+version: @version@
+main: xyz.shibomb.myfirstspigotplugin.MyFirstSpigotPlugin
+authors: [shibomb]
+description: This is my first spigot plugin
+website: https://www.shibomb.xyz
+commands:
+  hello:
+    description: Reply Hello to player
+    usage: /hello
+  seeyou:
+    description: Reply See you to player
+    usage: /seeyou
