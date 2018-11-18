@@ -5,6 +5,8 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
+import java.util.Arrays;
+
 public class CommandSeeyou implements CommandExecutor {
 
     @Override
@@ -13,7 +15,7 @@ public class CommandSeeyou implements CommandExecutor {
         System.out.println(sender);
         System.out.println(cmd);
         System.out.println(label);
-        System.out.println(args);
+        System.out.println(Arrays.deepToString(args));
 
         if (sender instanceof Player) {
             Player player = (Player) sender;
