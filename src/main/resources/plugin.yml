@@ -11,3 +11,6 @@ commands:
   seeyou:
     description: Reply See you to player
     usage: /seeyou
+  givemediamond:
+    description: Give the gift to player
+    usage: /givemediamond

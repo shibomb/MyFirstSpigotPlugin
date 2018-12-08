@@ -19,6 +19,15 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="MyFirstSpigotPlugin_main" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../libs/spigot-1.12.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" name="Gradle: org.spigotmc:spigot-api:1.13.2-R0.1-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Gradle: com.googlecode.json-simple:json-simple:1.1.1" level="project" />
     <orderEntry type="library" name="Gradle: junit:junit:4.12" level="project" />

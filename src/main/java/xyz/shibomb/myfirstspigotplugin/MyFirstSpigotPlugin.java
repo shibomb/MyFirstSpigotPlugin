@@ -11,6 +11,7 @@ public final class MyFirstSpigotPlugin extends JavaPlugin {
         // Plugin startup logic
 
         this.getCommand("hello").setExecutor(new CommandHello());
+        this.getCommand("givemediamond").setExecutor(new CommandHello());
         this.getCommand("seeyou").setExecutor(new CommandSeeyou());
     }
 
