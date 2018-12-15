@@ -40,7 +40,7 @@ public class CommandHello implements CommandExecutor {
                 PlayerInventory inventory = player.getInventory(); // プレイヤーのインベントリ
                 ItemStack diamondstack = new ItemStack(Material.DIAMOND, 64); // 山積みのダイヤモンド！
 
-                if (inventory.contains(diamondstack)) {
+                if (!inventory.contains(diamondstack)) {
                     inventory.addItem(diamondstack); // プレイヤーインベントリに山積みのダイヤモンドを加える
                     player.sendMessage(ChatColor.GOLD + "よく来たな!もっとダイヤモンドをくれてやろう、このとんでもない成金め!!");
                 }
