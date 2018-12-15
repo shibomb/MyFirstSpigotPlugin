@@ -1,7 +1,7 @@
 package xyz.shibomb.myfirstspigotplugin;
 
-import net.minecraft.server.v1_12_R1.EnumParticle;
-import net.minecraft.server.v1_12_R1.PacketPlayOutWorldParticles;
+import net.minecraft.server.v1_13_R2.Particles;
+import net.minecraft.server.v1_13_R2.PacketPlayOutWorldParticles;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -46,7 +46,7 @@ public class CommandHello implements CommandExecutor {
                 }
 
                 Location loc = player.getLocation();
-                PacketPlayOutWorldParticles packet = new PacketPlayOutWorldParticles(EnumParticle.CLOUD, true, 0, 0, 0, 1, 0, 0, 1, 10);
+                PacketPlayOutWorldParticles packet = new PacketPlayOutWorldParticles(Particles.c, true, 0, 0, 0, 1, 0, 0, 1, 10);
             }
         }
 
